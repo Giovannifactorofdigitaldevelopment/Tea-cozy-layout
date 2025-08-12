@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    width: 97%;
+    height: 69px;
+    padding: 0px 10px;
+    position: fixed;
+    z-index: 10;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    gap: 10px;
+    text-decoration: underline;
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.scritta {
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    color:seashell;
+    width: 1200px;
+}
+.sec-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.sec-2-text {
+    text-align: center;
+}
+.sec-2-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+figure {
+    margin: 10px 10px;
+}
+figcaption {
+    caption-side: bottom;
+    text-align: center;
+    padding-top: 10px;
+}
+.sec-2-img-block {
+    width: 300px;
+    height: 200px;
+}
+.sec-3 {
+    margin: 50px auto;
+    text-align: center;
+    height: 750px;
+}
+.sec-3-img {
+    width: 1200px;
+    height: auto;
+}
+.sec-3-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 750px;
+}
+.sec-3-text-box {
+    display: flex;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 40px;
+}
+.sec-3-text-box-content {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+.sec-3-text-footer {
+    position:relative;
+    top: 152px;
+    background-color: black;
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+footer {
+    margin: 0 20px;
+    display: flex;
+    text-align: left;
+}
+.sec-3-only-opac-1{
+    opacity: 1;
+}
+/*this is css file for setting graphics issues and layout. NEED TO PULL*/
